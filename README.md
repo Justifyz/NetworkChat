@@ -1,4 +1,4 @@
 NetworkChat
 ===========
 
-Client/Server based network chat!!!!
+Client/Server based network chat
