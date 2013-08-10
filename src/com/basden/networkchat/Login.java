@@ -43,7 +43,7 @@ public class Login extends JFrame {
 		contentPane.setLayout(null);
 		
 		txtName = new JTextField();
-		txtName.setBounds(64, 47, 165, 28);
+		txtName.setBounds(64, 47, 165, 23);
 		contentPane.add(txtName);
 		txtName.setColumns(10);
 		
@@ -52,29 +52,29 @@ public class Login extends JFrame {
 		contentPane.add(lblName);
 		
 		txtAddress = new JTextField();
-		txtAddress.setBounds(64, 121, 165, 28);
+		txtAddress.setBounds(64, 95, 165, 23);
 		contentPane.add(txtAddress);
 		txtAddress.setColumns(10);
 		
 		lblIpAddress = new JLabel("IP Address:");
-		lblIpAddress.setBounds(115, 103, 75, 14);
+		lblIpAddress.setBounds(109, 80, 75, 14);
 		contentPane.add(lblIpAddress);
 		
 		txtPort = new JTextField();
 		txtPort.setColumns(10);
-		txtPort.setBounds(64, 190, 165, 28);
+		txtPort.setBounds(64, 158, 165, 23);
 		contentPane.add(txtPort);
 		
 		lblPort = new JLabel("Port:");
-		lblPort.setBounds(130, 176, 33, 14);
+		lblPort.setBounds(125, 145, 33, 14);
 		contentPane.add(lblPort);
 		
 		lblAddressDesc = new JLabel("(eg. 165.762.0.4)");
-		lblAddressDesc.setBounds(103, 151, 100, 14);
+		lblAddressDesc.setBounds(97, 120, 100, 14);
 		contentPane.add(lblAddressDesc);
 		
 		lblPortDesc = new JLabel("(eg. 8172)");
-		lblPortDesc.setBounds(115, 220, 64, 14);
+		lblPortDesc.setBounds(115, 187, 64, 14);
 		contentPane.add(lblPortDesc);
 		
 		JButton btnLogin = new JButton("Login");
@@ -86,7 +86,7 @@ public class Login extends JFrame {
 				login(name, address, port);
 			}
 		});
-		btnLogin.setBounds(102, 305, 89, 23);
+		btnLogin.setBounds(102, 234, 89, 23);
 		contentPane.add(btnLogin);
 	}
 	
